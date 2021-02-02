@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://anugrah09.github.io/Blog-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "axios": "^0.21.1",
     "firebase": "^8.2.5",
     "firebase-tools": "^9.2.2",
+    "gh-pages": "^3.1.0",
     "html-react-parser": "^1.2.3",
     "moment": "^2.29.1",
     "react": "^17.0.1",
@@ -23,6 +25,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -17,7 +17,7 @@ function Main() {
         <Router>
             <>
                 <Switch>
-                    <Route exact path="/" > <Home name="Home" /> </Route>
+                    <Route exact path="/"  component={Home} />
                     <Route exact path="/signin" component={Signin} />
                     <Route exact path="/signup" component={Signup} />
                     <Route exact path="/:detail_id" component={Details} />
