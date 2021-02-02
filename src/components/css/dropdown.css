@@ -1,0 +1,28 @@
+/* .options{
+    height: 15px;
+    width: 120px;
+} */
+.dropdown-text{
+    /* color: grey; */
+    font-size: 13px;
+    margin-top: 12px;
+}
+#country{
+    height: 27px;
+    padding: 0px;
+    width: auto;
+}
+.dropdown-divider{
+    width: 100%;
+}
+.option-value{
+    color: grey;
+    font-size: 15px;
+}
+.option-value:hover{
+    background-color: none;
+}
+.option{
+    color: grey;
+    font-size: 15px;
+}
